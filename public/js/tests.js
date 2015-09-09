@@ -10,10 +10,9 @@ describe('primeSift#create', function() {
 });
 
 describe('primeSift#create', function() {
-  var prime2 = primeSift();
   var prime = primeSift();
   var arr = prime.create(10);
-  var arr2 = prime2.create(13);
+  var arr2 = prime.create(13);
   it('removes all non-prime from the numArray', function() {
     expect(prime.sift(arr)).to.eql([7, 5, 3, 2]);
   });

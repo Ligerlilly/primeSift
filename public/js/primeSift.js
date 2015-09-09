@@ -1,7 +1,8 @@
 var primeSift = function() {
-  var createArray, siftArray, numArray = [];
+  var createArray, siftArray;
 
   createArray = function(num) {
+    var numArray = [];
     while (num > 1) {
       numArray.push(num);
       num -= 1;
