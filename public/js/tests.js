@@ -9,7 +9,7 @@ describe('primeSift#create', function() {
   });
 });
 
-describe('primeSift#create', function() {
+describe('primeSift#create', function() { 
   var prime = primeSift();
   var arr = prime.create(10);
   var arr2 = prime.create(13);
